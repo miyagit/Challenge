@@ -1,0 +1,38 @@
+OS 名	Microsoft Windows 10 Home
+バージョン	10.0.10586 ビルド 10586
+OS の他の説明 	利用不可
+OS 製造元	Microsoft Corporation
+システム名	YUYA-PC
+システム製造元	Dell Inc.
+システムモデル	Inspiron N5010
+システムの種類	x64-ベース PC
+システム SKU	To be filled by O.E.M.
+プロセッサ	Intel(R) Core(TM) i5 CPU       M 480  @ 2.67GHz、2661 Mhz、2 個のコア、4 個のロジカル プロセッサ
+BIOS バージョン/日付	Dell Inc. A15, 2011/07/19
+SMBIOS バージョン	2.6
+埋め込みコントローラーのバージョン	1.05
+BIOS モード	レガシ
+BaseBoard メーカー	Dell Inc.
+BaseBoard モデル	利用不可
+BaseBoard 名	ベース ボード
+プラットフォームの役割	モバイル
+セキュア ブートの状態	サポートされていません
+PCR7 構成	バインド不可
+Windows ディレクトリ	C:\WINDOWS
+システム ディレクトリ	C:\WINDOWS\system32
+ブート デバイス	\Device\HarddiskVolume2
+ロケール	日本
+ハードウェア アブストラクション レイヤー	バージョン = "10.0.10586.0"
+ユーザー名	Yuya-PC\Yuya
+タイム ゾーン	東京 (標準時)
+インストール済みの物理メモリ (RAM)	4.00 GB
+合計物理メモリ	3.80 GB
+利用可能な物理メモリ	748 MB
+合計仮想メモリ	9.51 GB
+利用可能な仮想メモリ	4.52 GB
+ページ ファイルの空き容量	5.70 GB
+ページ ファイル	C:\pagefile.sys
+Hyper-V - VM モニター モード拡張機能	はい
+Hyper-V - 第 2 レベル アドレス変換拡張機能	はい
+Hyper-V - ファームウェアで仮想化が有効	はい
+Hyper-V - データ実行防止	はい
