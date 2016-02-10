@@ -18,33 +18,38 @@ function view_profile($AAA){
 $A = view_profile("miyajima");
 $B = view_profile("yamada");
 $C = view_profile("aoki");
-
-
-foreach($A as $key =>$value){
-	if($key == "id" || $value == "") {
-		continue;
+$limit = 2;
+$count = 0;
+while ($limit > $count) {
+	if($count == $limit) {
+		break;
 	}
-	print $key.":"."$value<br>";
-	
-}
-
-foreach($B as $key =>$value){
-	if($key == "id" || $value == "") {
-		continue;
+	foreach($A as $key =>$value){
+		if($key == "id" || $value == "") {
+			continue;
+		}
+		print $key.":"."$value<br>";
+	}$count ++;
+	if($count == $limit) {
+		break;
 	}
-	print $key.":"."$value<br>";
-	
-}
-
-foreach($C as $key =>$value){
-	if($key == "id" || $value == "") {
-		continue;
+	foreach($B as $key =>$value){
+		if($key == "id" || $value == "") {
+			continue;
+		}
+		print $key.":"."$value<br>";
+	}$count++;
+	if($count == $limit) {
+		break;
 	}
-	print $key.":"."$value<br>";
-	
+	foreach($C as $key =>$value){
+		if($key == "id" || $value == "") {
+			continue;
+		}
+		print $key.":"."$value<br>";
+	}$count++;	
+
 }
-
-
 
 
 
