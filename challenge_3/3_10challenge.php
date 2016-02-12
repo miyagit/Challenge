@@ -19,7 +19,7 @@ $A = view_profile("miyajima");
 $B = view_profile("yamada");
 $C = view_profile("aoki");
 $ABC = array($A,$B,$C);
-$limit = 1;
+$limit = 2;
 $count = 0;
 
 
