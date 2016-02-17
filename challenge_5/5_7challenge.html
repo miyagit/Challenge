@@ -1,0 +1,27 @@
+<HTML>
+<HEAD>
+<META http-equiv = "Content-Type" content="text/html;charset=utf-8">
+</HEAD>
+
+<BODY bgcolor = "#FFFFFF" text="#000000">
+<FORM name = "form1" method = "POST" action = "5_7challenge.php">
+名前:<BR>
+<INPUT type = "text" name = "onamae" value = "<?= $_COOKIE['NAMAE']?>">
+<BR>
+<BR>
+性別:<BR>
+<INPUT type = "radio" name = "gender" value = "男">男<BR>
+<INPUT type = "radio" name = "gender" value = "女">女<BR>
+<BR>	
+趣味:<BR>
+<TEXTAREA name="honbun" cols = "30"
+rows="5"></TEXTAREA>
+<BR>
+<INPUT type="submit" value = "送信">
+</FORM>
+
+<?php
+
+
+</BODY>
+</HTML>
