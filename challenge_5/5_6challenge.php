@@ -1,27 +1,6 @@
-<HTML>
-
-<head>
-<TITLE>PHPのテスト</TITLE>
-</head>
-<body>
 <?php
-$file_dir = 'C:\xampp\htdocs\develop\\';
-$file_path = $file_dir.$_FILES["uploadfile"]["name"];
-if(move_uploaded_file($_FILES["uploadfile"]["name"],$file_path)) {
-	$img_dir = "/image/";
-	$img_path = $img_dir.$_FILES["uploaded"]["name"];
-	$size = getimagesize($file_path);
-	?>
-	ファイルアップロードを完了しました。<BR>
-	<IMG src = "<?=$img_path?>"<?=$size[3]?>><BR>
-	<B><?=$_POST["comment"]?></B><BR>
-<?php
-}else {
-?>
-正常にアップロードできませんでした。<BR>
-<?php
-}
-?>
-</body>
-</HTML>
-   
+// サーバー側に保存する名前
+$file_name = 'upload.txt';
+move_uploaded_file( $_FILES['userfile']['tmp_name'], $file_name);//サーバーに保存してサーバーの方で管理しやすいように名前を付ける処理。
+$file_path = file_get_contents($file_name);
+print $file_path;
