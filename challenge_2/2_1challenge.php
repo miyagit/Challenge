@@ -1,10 +1,10 @@
 ﻿<?php
-$kazu = 3;
+$kazu = 1;
 switch($kazu) {
-	case "1":
+	case 1:
 		print "「one」";
 		break;
-	case "2":
+	case 2:
 		print "「two」";
 		break;
 	default:

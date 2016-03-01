@@ -1,10 +1,10 @@
 ﻿<?php
-$moji = "'A'";
+$moji = 'あ';
 switch($moji) {
-	case "'A'":
+	case 'A':
 		print "「英語」";
 		break;
-	case "'あ'":
+	case 'あ':
 		print "「日本語」";
 		break;
 	default:

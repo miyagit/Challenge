@@ -1,4 +1,7 @@
 ﻿<?php
-$hairetsu = array(10,100,"'soeda'","'hayashi'",-20,118,"'END'");
-
+$i = 1000;
+while($i>100) {
+	print $i."<br>";
+	$i = $i /2;
+}
 ?>
